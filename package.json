@@ -1,0 +1,28 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Minesweeper Node.js Codecademy",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuhukg/minesweeper_node.git"
+  },
+  "keywords": [
+    "minesweeper",
+    "node.js"
+  ],
+  "author": "Kuhuk Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuhukg/minesweeper_node/issues"
+  },
+  "homepage": "https://github.com/kuhukg/minesweeper_node#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
